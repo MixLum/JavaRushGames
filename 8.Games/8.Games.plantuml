@@ -1,0 +1,326 @@
+@startuml
+
+title __8.GAMES's Class Diagram__\n
+
+  namespace com.javarush.games.game2048 {
+    class com.javarush.games.game2048.Game2048 {
+    }
+  }
+  
+
+  namespace com.javarush.games.minesweeper {
+    class com.javarush.games.minesweeper.GameObject {
+    }
+  }
+  
+
+  namespace com.javarush.games.minesweeper {
+    class com.javarush.games.minesweeper.MinesweeperGame {
+    }
+  }
+  
+
+  namespace com.javarush.games.moonlander {
+    class com.javarush.games.moonlander.GameObject {
+    }
+  }
+  
+
+  namespace com.javarush.games.moonlander {
+    class com.javarush.games.moonlander.MoonLanderGame {
+    }
+  }
+  
+
+  namespace com.javarush.games.moonlander {
+    class com.javarush.games.moonlander.Rocket {
+    }
+  }
+  
+
+  namespace com.javarush.games.moonlander {
+    class com.javarush.games.moonlander.RocketFire {
+    }
+  }
+  
+
+  namespace com.javarush.games.moonlander {
+    class com.javarush.games.moonlander.ShapeMatrix {
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    enum Direction {
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    class com.javarush.games.racer.FinishLine {
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    class com.javarush.games.racer.GameObject {
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    class com.javarush.games.racer.PlayerCar {
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    class com.javarush.games.racer.ProgressBar {
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    class com.javarush.games.racer.RacerGame {
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    class com.javarush.games.racer.RoadMarking {
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    class com.javarush.games.racer.ShapeMatrix {
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    namespace road {
+      class com.javarush.games.racer.road.Car {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    namespace road {
+      class com.javarush.games.racer.road.MovingCar {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    namespace road {
+      class com.javarush.games.racer.road.RoadManager {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    namespace road {
+      class com.javarush.games.racer.road.RoadObject {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    namespace road {
+      enum RoadObjectType {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.racer {
+    namespace road {
+      class com.javarush.games.racer.road.Thorn {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.snake {
+    class com.javarush.games.snake.Apple {
+    }
+  }
+  
+
+  namespace com.javarush.games.snake {
+    enum Direction {
+    }
+  }
+  
+
+  namespace com.javarush.games.snake {
+    class com.javarush.games.snake.GameObject {
+    }
+  }
+  
+
+  namespace com.javarush.games.snake {
+    class com.javarush.games.snake.Snake {
+    }
+  }
+  
+
+  namespace com.javarush.games.snake {
+    class com.javarush.games.snake.SnakeGame {
+    }
+  }
+  
+
+  namespace com.javarush.games.spaceinvaders {
+    enum Direction {
+    }
+  }
+  
+
+  namespace com.javarush.games.spaceinvaders {
+    class com.javarush.games.spaceinvaders.ShapeMatrix {
+    }
+  }
+  
+
+  namespace com.javarush.games.spaceinvaders {
+    class com.javarush.games.spaceinvaders.SpaceInvadersGame {
+    }
+  }
+  
+
+  namespace com.javarush.games.spaceinvaders {
+    namespace gameobjects {
+      class com.javarush.games.spaceinvaders.gameobjects.Boss {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.spaceinvaders {
+    namespace gameobjects {
+      class com.javarush.games.spaceinvaders.gameobjects.Bullet {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.spaceinvaders {
+    namespace gameobjects {
+      class com.javarush.games.spaceinvaders.gameobjects.EnemyFleet {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.spaceinvaders {
+    namespace gameobjects {
+      class com.javarush.games.spaceinvaders.gameobjects.EnemyShip {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.spaceinvaders {
+    namespace gameobjects {
+      class com.javarush.games.spaceinvaders.gameobjects.GameObject {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.spaceinvaders {
+    namespace gameobjects {
+      class com.javarush.games.spaceinvaders.gameobjects.PlayerShip {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.spaceinvaders {
+    namespace gameobjects {
+      class com.javarush.games.spaceinvaders.gameobjects.Ship {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.spaceinvaders {
+    namespace gameobjects {
+      class com.javarush.games.spaceinvaders.gameobjects.Star {
+      }
+    }
+  }
+  
+
+  namespace com.javarush.games.threeinrow {
+    enum Elements {
+    }
+  }
+  
+
+  namespace com.javarush.games.threeinrow {
+    class com.javarush.games.threeinrow.ThreeInRowGame {
+    }
+  }
+  
+
+  com.javarush.games.game2048.Game2048 -up-|> com.javarush.engine.cell.Game
+  com.javarush.games.minesweeper.MinesweeperGame -up-|> com.javarush.engine.cell.Game
+  com.javarush.games.moonlander.MoonLanderGame -up-|> com.javarush.engine.cell.Game
+  com.javarush.games.moonlander.MoonLanderGame o-- com.javarush.games.moonlander.GameObject : landscape
+  com.javarush.games.moonlander.MoonLanderGame o-- com.javarush.games.moonlander.GameObject : platform
+  com.javarush.games.moonlander.MoonLanderGame o-- com.javarush.games.moonlander.Rocket : rocket
+  com.javarush.games.moonlander.Rocket -up-|> com.javarush.games.moonlander.GameObject
+  com.javarush.games.moonlander.Rocket o-- com.javarush.games.moonlander.RocketFire : downFire
+  com.javarush.games.moonlander.Rocket o-- com.javarush.games.moonlander.RocketFire : leftFire
+  com.javarush.games.moonlander.Rocket o-- com.javarush.games.moonlander.RocketFire : rightFire
+  com.javarush.games.moonlander.RocketFire -up-|> com.javarush.games.moonlander.GameObject
+  com.javarush.games.racer.FinishLine -up-|> com.javarush.games.racer.GameObject
+  com.javarush.games.racer.PlayerCar -up-|> com.javarush.games.racer.GameObject
+  com.javarush.games.racer.PlayerCar o-- com.javarush.games.racer.Direction : direction
+  com.javarush.games.racer.ProgressBar o-- com.javarush.games.racer.GameObject : progressBar
+  com.javarush.games.racer.ProgressBar o-- com.javarush.games.racer.GameObject : progressBarField
+  com.javarush.games.racer.RacerGame -up-|> com.javarush.engine.cell.Game
+  com.javarush.games.racer.RacerGame o-- com.javarush.games.racer.FinishLine : finishLine
+  com.javarush.games.racer.RacerGame o-- com.javarush.games.racer.PlayerCar : player
+  com.javarush.games.racer.RacerGame o-- com.javarush.games.racer.ProgressBar : progressBar
+  com.javarush.games.racer.RacerGame o-- com.javarush.games.racer.road.RoadManager : roadManager
+  com.javarush.games.racer.RacerGame o-- com.javarush.games.racer.RoadMarking : roadMarking
+  com.javarush.games.racer.road.Car -up-|> com.javarush.games.racer.road.RoadObject
+  com.javarush.games.racer.road.MovingCar -up-|> com.javarush.games.racer.road.RoadObject
+  com.javarush.games.racer.road.RoadObject -up-|> com.javarush.games.racer.GameObject
+  com.javarush.games.racer.road.RoadObject o-- com.javarush.games.racer.road.RoadObjectType : type
+  com.javarush.games.racer.road.Thorn -up-|> com.javarush.games.racer.road.RoadObject
+  com.javarush.games.snake.Apple -up-|> com.javarush.games.snake.GameObject
+  com.javarush.games.snake.Snake o-- com.javarush.games.snake.Direction : direction
+  com.javarush.games.snake.SnakeGame -up-|> com.javarush.engine.cell.Game
+  com.javarush.games.snake.SnakeGame o-- com.javarush.games.snake.Apple : apple
+  com.javarush.games.snake.SnakeGame o-- com.javarush.games.snake.Snake : snake
+  com.javarush.games.spaceinvaders.SpaceInvadersGame -up-|> com.javarush.engine.cell.Game
+  com.javarush.games.spaceinvaders.SpaceInvadersGame o-- com.javarush.games.spaceinvaders.gameobjects.EnemyFleet : enemyFleet
+  com.javarush.games.spaceinvaders.SpaceInvadersGame o-- com.javarush.games.spaceinvaders.gameobjects.PlayerShip : playerShip
+  com.javarush.games.spaceinvaders.gameobjects.Boss -up-|> com.javarush.games.spaceinvaders.gameobjects.EnemyShip
+  com.javarush.games.spaceinvaders.gameobjects.Bullet -up-|> com.javarush.games.spaceinvaders.gameobjects.GameObject
+  com.javarush.games.spaceinvaders.gameobjects.EnemyFleet o-- com.javarush.games.spaceinvaders.Direction : direction
+  com.javarush.games.spaceinvaders.gameobjects.EnemyShip -up-|> com.javarush.games.spaceinvaders.gameobjects.Ship
+  com.javarush.games.spaceinvaders.gameobjects.PlayerShip -up-|> com.javarush.games.spaceinvaders.gameobjects.Ship
+  com.javarush.games.spaceinvaders.gameobjects.PlayerShip o-- com.javarush.games.spaceinvaders.Direction : direction
+  com.javarush.games.spaceinvaders.gameobjects.Ship -up-|> com.javarush.games.spaceinvaders.gameobjects.GameObject
+  com.javarush.games.spaceinvaders.gameobjects.Star -up-|> com.javarush.games.spaceinvaders.gameobjects.GameObject
+  com.javarush.games.threeinrow.ThreeInRowGame -up-|> com.javarush.engine.cell.Game
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
