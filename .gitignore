@@ -8,11 +8,16 @@ target/
 *.iml
 *.iws
 *.jrtc
-*.java
 *.class
 *.info
 *.properties
 *.jar
+*.plantuml
+.gitignore
+Инструкция.png
+your.file.name
+myfile.bin
+Thumbs.db
 
 /1.JavaSyntax/
 /2.JavaCore/
